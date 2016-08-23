@@ -541,4 +541,7 @@
   <project path="frameworks/base" name="TwistedCore/frameworks_base" remote="github" revision="n7.0" />
   <project path="packages/apps/Settings" name="TwistedCore/packages_apps_Settings" remote="github" revision="n7.0" />
   <project path="vendor/twisted" name="TwistedCore/vendor_twisted" remote="github" revision="n7.0" />
+  <project path="vendor/lge" name="TwistedProject/vendor_lge" remote="github" revision="m6.0-arm" />
+  <project path="vendor/moto" name="TwistedProject/vendor_moto" remote="github" revision="m6.0-arm" />
+  <project path="vendor/huawei" name="TwistedProject/vendor_huawei" remote="github" revision="m6.0-arm64" /> 
 </manifest>
