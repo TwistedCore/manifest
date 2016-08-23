@@ -14,7 +14,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="TwistedCore/android_build" remote="github" revision="m6.0-arm" >
+  <project path="build" name="TwistedCore/android_build" remote="github" revision="n7.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
