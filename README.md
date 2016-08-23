@@ -13,7 +13,7 @@ Initializing the Source
 
 mkdir aosp (or whatever you want to name the source folder)
 cd ~/aosp
-repo init -u https://github.com/TwistedCore/platform_manifest.git -b n7.0
+repo init -u https://github.com/TwistedCore/manifest.git -b n7.0
 Sync the Source
 
 repo sync -jx -f (x being however many cpu jobs, you can also use -c to sync only the current branch specified by repo init)
