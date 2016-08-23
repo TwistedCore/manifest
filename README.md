@@ -1,4 +1,4 @@
-# manifestTwistedProject Github
+TwistedProject Github
 
 Build sources for Twisted Rom Shamu and Hammerhead devices
 
