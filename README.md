@@ -12,28 +12,36 @@ Initializing the Source
 (Assuming you have a valid build environment setup)
 
 mkdir aosp (or whatever you want to name the source folder)
+
 cd ~/aosp
+
 repo init -u https://github.com/TwistedCore/manifest.git -b n7.0
+
 Sync the Source
 
 repo sync -jx -f (x being however many cpu jobs, you can also use -c to sync only the current branch specified by repo init)
+
 Getting Ready to Build
 
 . build/envsetup.sh
+
 Choose Supported Device to Build
 
-lunch twisted_hammerhead-user
-lunch twisted_shamu-user
-Now Build it
-
 mka otapackage
+
 For Quick Dirty Rebuilds
 
+
 cd ~/aosp
+
 repo sync -jx -f (x being however many cpu jobs, may also use -c as above)
+
 lunch and pick the right device (refer to above for choosing right device to build)
+
 mka dirty
+
 mka otapackage
+
 Credits
 
 Google for AOSP
