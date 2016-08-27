@@ -29,6 +29,7 @@
   <project path="external/skia" name="external_skia" remote="twisted" revision="n7.0"  />
   <project path="frameworks/base" name="frameworks_base" remote="twisted" revision="n7.0" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="twisted" revision="n7.0" />
+  <project path="system/core" name="system_core" remote="twisted" revision="n7.0" />
   <project path="vendor/twisted" name="vendor_twisted" remote="twisted" revision="n7.0" />
 
   <!-- Proprietary Vendors -->
@@ -474,7 +475,6 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
