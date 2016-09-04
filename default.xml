@@ -32,11 +32,26 @@
   <project path="frameworks/native" name="frameworks_native" remote="twisted" revision="n7.0"   />
   <project path="frameworks/support" name="frameworks_support" remote="twisted" revision="n7.0"  />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="twisted" revision="n7.0"  />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="twisted" revision="n7.0"  />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="twisted" revision="n7.0"   />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="twisted" revision="n7.0"  />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="twisted" revision="n7.0"  />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="twisted" revision="n7.0"  />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="twisted" revision="n7.0" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="twisted" revision="n7.0"  />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="twisted" revision="n7.0" />
   <project path="system/core" name="system_core" remote="twisted" revision="n7.0" />
   <project path="system/sepolicy" name="system_sepolicy" remote="twisted" revision="n7.0"  />
   <project path="vendor/twisted" name="vendor_twisted" remote="twisted" revision="n7.0" />
+
+  <!--Device Sources-->
+  <project path="device/huawei/angler" name="device_angler" remote="twisted" revision="n7.0" />
+  <project path="device/lge/bullhead" name="device_bullhead" remote="twisted" revision="n7.0" />
+  <project path="device/moto/shamu" name="device_shamu" remote="twisted" revision="n7.0" />
+
+    <!--Device Sources-->
+  <project path="kernel/moto/shamu" name="twisted_kernel_shamu" remote="twisted" revision="n7.0-testing" />
+   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="DespairFactor/arm-eabi-4.9" remote="bb" revision="master" />
 
   <!-- Proprietary Vendors -->
   <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="pure" revision="n" />
@@ -63,11 +78,8 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
-  <project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk" />
   <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" clone-depth="1" />
-  <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead" />
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" clone-depth="1" />
-  <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
@@ -384,11 +396,8 @@
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
-  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
@@ -406,7 +415,6 @@
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
-  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
@@ -440,8 +448,6 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="adp8064,pdk-cw-fs,pdk-fs"/>
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="platform_testing" name="platform/platform_testing" />
