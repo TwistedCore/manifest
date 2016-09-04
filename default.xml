@@ -11,6 +11,9 @@
   <remote name="bb"
            fetch="https://bitbucket.org/" />
 
+  <remote  name="yashar"
+           fetch="https://github.com/nougat-hammerhead" />
+           
   <remote name="twisted"
            fetch="https://github.com/TwistedCore/" /> 
 
