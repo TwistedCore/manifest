@@ -45,6 +45,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="twisted" revision="n7.0" />
   <project path="system/core" name="system_core" remote="twisted" revision="n7.0" />
   <project path="system/sepolicy" name="system_sepolicy" remote="twisted" revision="n7.0"  />
+  <project path="vendor/google" name="proprietary_vendor_google" remote="twisted" revision="n7.0" />
   <project path="vendor/twisted" name="vendor_twisted" remote="twisted" revision="n7.0" />
 
   <!--Device Sources-->
@@ -54,12 +55,15 @@
 
     <!--Device Sources-->
   <project path="kernel/moto/shamu" name="twisted_kernel_shamu" remote="twisted" revision="n7.0-testing" />
-   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="DespairFactor/arm-eabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="DespairFactor/arm-eabi-4.9" remote="bb" revision="master" />
 
   <!-- Proprietary Vendors -->
   <project path="vendor/huawei" name="vendor_huawei" remote="uber" revision="master" />
   <project path="vendor/lge" name="vendor_lge" remote="uber" revision="master" />
   <project path="vendor/moto" name="vendor_moto_shamu" remote="uber" revision="master" />
+
+  <!--Non Twisted Sources -->
+  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="pure" revision="n" />
 
   <!-- Start Of Google Sources -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -111,7 +115,6 @@
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
