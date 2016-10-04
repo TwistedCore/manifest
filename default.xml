@@ -20,7 +20,7 @@
   <remote name="uber"
            fetch="https://github.com/UBERROMS/" /> 
 
-  <default revision="refs/tags/android-7.0.0_r6"
+  <default revision="refs/tags/android-7.0.0_r11"
            remote="aosp"
            sync-j="4" />
 
@@ -64,6 +64,7 @@
 
   <!--Non Twisted Sources -->
   <project path="external/chromium-webview" name="external_chromium-webview" groups="pdk" remote="twisted" revision="n7.0" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
 
   <!-- Start Of Google Sources -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
