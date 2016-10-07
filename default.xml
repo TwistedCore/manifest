@@ -63,6 +63,7 @@
     <!--Device Sources-->
   <project path="kernel/moto/shamu" name="twisted_kernel_shamu" remote="twisted" revision="n7.0-testing" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="DespairFactor/arm-eabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/clang/linux-x86/host/sdclang-3.8" name="DespairFactor/sdclang-3.8" remote="bb"  revision="master" />
 
   <!-- Proprietary Vendors -->
   <project path="vendor/huawei" name="vendor_huawei" remote="uber" revision="master" />
