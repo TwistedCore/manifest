@@ -82,7 +82,7 @@
   <!-- Start Of Google Sources -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="build_kati" remote="twisted" revision="n7.0" />
-  <project path="build/soong" name="build_soong" remote="twisted" revision="n7.0" />
+  <project path="build/soong" name="build_soong" remote="twisted" revision="n7.0" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
