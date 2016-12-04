@@ -85,7 +85,7 @@
   <project path="vendor/moto" name="vendor_moto_shamu" remote="uber" revision="master" />
 
   <!--Non Twisted Sources -->
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
 
   <!-- Start Of Google Sources -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
