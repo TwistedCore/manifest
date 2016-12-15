@@ -33,6 +33,7 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="twisted" revision="n7.1.1" />
   <project path="dalvik" name="android_dalvik" remote="twisted" revision="n7.1.1" />
   <project path="external/chromium-webview" name="external_chromium-webview" groups="pdk" remote="twisted" revision="n7.1.1" />
+  <project path="external/DUtils" name="external_DUtils" remote="twisted" revision="n7.1.1" />
   <project path="external/jemalloc" name="external_jemalloc" remote="twisted" revision="n7.1.1" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="twisted" revision="n7.1.1" />
   <project path="external/libpng" name="external_libpng" remote="twisted" revision="n7.1.1" />
@@ -54,6 +55,7 @@
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="twisted" revision="n7.1.1" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="twisted" revision="n7.1.1" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="twisted" revision="n7.1.1" />
+  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="twisted" revision="n7.1.1" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="twisted" revision="n7.1.1" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="twisted" revision="n7.1.1" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="twisted" revision="n7.1.1" />
