@@ -85,6 +85,7 @@
   <project path="vendor/huawei" name="vendor_huawei" remote="uber" revision="master" />
   <project path="vendor/lge" name="vendor_lge" remote="uber" revision="master" />
   <project path="vendor/moto" name="vendor_moto_shamu" remote="uber" revision="master" />
+  <project path="vendor/prebuilt" name="android_vendor_prebuilt" remote="twisted" revision="android-7.1" />
 
   <!--Non Twisted Sources -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
