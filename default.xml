@@ -78,7 +78,7 @@
 
     <!--Device Sources-->
   <project path="kernel/moto/shamu" name="twisted_kernel_shamu" remote="twisted" revision="n7.1.1-testing" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="mdalexca/arm-eabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="DespairFactor/arm-eabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/clang/host/linux-x86/sdclang-3.8" name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86" remote="github"  revision="nougat-caf" />
 
   <!-- Proprietary Vendors -->
