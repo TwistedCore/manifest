@@ -20,7 +20,7 @@
   <remote name="uber"
            fetch="https://github.com/UBERROMS/" /> 
 
-  <default revision="refs/tags/android-7.1.1_r9"
+  <default revision="refs/tags/android-7.1.1_r20"
            remote="aosp"
            sync-j="4" />
 
